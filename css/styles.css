@@ -84,9 +84,10 @@
   width: 44.8%;
   height: 6.5rem;
   position: fixed;
-  top: 39.1rem;
-  left: 43.79rem;
+  top: 69.1rem;
+  left: 43.94rem;
   z-index: 9999999;
+  border-radius: 1rem;
   background-color: #1d0083;
 }
 .ask_follow_in_text{
@@ -94,6 +95,7 @@
   font-size: 2rem;
   color: #ffffff;
   padding-top: 1.7rem;
+  padding-left: 1rem;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 600;
 }
@@ -138,7 +140,7 @@
   width: 1.4rem;
   height: 1.4rem;
   margin-top: 1.85rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 .info_agree_text{
   float: left;
@@ -11642,35 +11644,50 @@ header.masthead h1, header.masthead .h1 {
   padding-bottom: 6rem;
   background-color: #f3f3f3;
 }
+.intro_xxxxxfor{
+  width: 14.5rem;
+  height: 12.5rem;
+  margin-left: 1.2rem;
+}
 .drone_introduce_img{
   width: 80.6rem;
-  height: 37rem;
+  height: 34rem;
   margin-top: 6rem;
 
 }
 .drone_intro_inclu{
   float: left;
-  margin-left: 0.2rem;
-  width: 17.6rem;
-  height: 31rem;
-  border: 0.1rem dashed;
+  margin-left: 1.2rem;
+  margin-top: 6rem;
+  width: 16.9rem;
+  height: 29.5rem;
+  border: 0.1rem dashed #a8a8a8;
+}
+.drone_intro_includ{
+  float: left;
+  margin-left: 0;
+  margin-top: 6rem;
+  width: 16.9rem;
+  height: 29.5rem;
+  border: 0.1rem dashed #a8a8a8;
 }
 .drone_introduce_img img{
   width: 14.8rem;
-  margin-left: 1rem;
+  margin-left: 0.97rem;
+  margin-top: 1rem;
   border-radius: 2rem;
 }
 .intro_first_title{
-  float: left;
   padding-top: 0.5rem;
   font-size: 1.06rem;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
+  text-align: center;
   color: #000000;
 }
 .intro_first_title_x{
-  float: left;
-  font-size: 0.87rem;
+  text-align: center;
+  font-size: 0.77rem;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   line-height: 2rem;
@@ -11690,7 +11707,7 @@ header.masthead h1, header.masthead .h1 {
 }
 .youtube_player{
   position: absolute;
-  top: 0;
+  top: 3rem;
   left: 0;
   width: 100%;
   height: 100%;
@@ -11799,13 +11816,24 @@ header.masthead h1, header.masthead .h1 {
 .sec4x_title{
   width: 15rem;
   height: 13rem;
-  background-color: #25cff2;
+}
+.sec4x_title_1{
+  width: 15rem;
+  height: 13rem;
 }
 .fergrggrd{
   position: relative;
-  top: 2rem;
+  top: 9rem;
   left: 20rem;
-  width: 30rem;
+  width: 15rem;
+  height: 13rem;
+  background-color: #000000;
+}
+.fergrggrd_1{
+  position: relative;
+  bottom: 4rem;
+  left: 35rem;
+  width: 15rem;
   height: 13rem;
   background-color: #000000;
 }
@@ -11818,17 +11846,68 @@ header.masthead h1, header.masthead .h1 {
   float: left;
   width: 35.62rem;
 }
+.feqgfgwr{
+  position: relative;
+  bottom: 30.6rem;
+  left: 0.1rem;
+  font-size: 0.91rem;
+  font-weight: 800;
+  text-align: center;
+  color: #f1aae4;
+}
+.feqgfgwr_1{
+  position: relative;
+  bottom: 16.2rem;
+  left: 0.1rem;
+  font-size: 0.91rem;
+  font-weight: 800;
+  text-align: center;
+  color: #f1aae4;
+}
+.grgeheht{
+  position: relative;
+  bottom: 30.6rem;
+  left: 0.1rem;
+  font-size: 0.95rem;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+}
+.grgeheht_1{
+  position: relative;
+  bottom: 15.6rem;
+  left: 0.1rem;
+  font-size: 0.95rem;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+}
 /* 섹션4x끝 */
 /* 섹션5시작 */
 .page-section_5{
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 15rem;
+}
+.cust_img{
+  width: 100%;
+  height: 4rem;
 }
 .cust_img img{
-  width: 100%;
+  float: left;
+  width: 11.87rem;
+  margin-top: 3rem;
+}
+.cust_img p{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 800;
+  color: #1362ad;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .contain_flex{
   display: flex;
-
 }
 /* 섹션5끝 */
+#contact{
+  margin-top: 6rem;
+}
