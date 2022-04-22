@@ -81,11 +81,11 @@
   }
 }
 .ask_follow{
-  width: 45%;
+  width: 44.8%;
   height: 6.5rem;
   position: fixed;
-  top: 35.1rem;
-  left: 43.7rem;
+  top: 39.1rem;
+  left: 43.79rem;
   z-index: 9999999;
   background-color: #1d0083;
 }
